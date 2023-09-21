@@ -19,7 +19,7 @@ print ga.green+'''
 \033[1;93m*   created :[+]\033[1;92mDADEVIL JUANAI                                    
 \033[1;92m*   github:  [+]\033[1;95mhttps://github.com/rrqr                                         *********************************************************************                                                 
             
-           🇹🇭🇮🇸 🇹🇴🇴🇱 🇨🇷🇪🇦🇹🇪🇩 🇧🇾 🇲 🇷  🇪 🇴   
+           🇹🇭🇮🇸 🇹🇴🇴🇱 🇨🇷🇪🇦🇹🇪🇩 🇧🇾 DADEVIL - JUNAI   
             
 \033[1;91m*This tools is very easy to use, and dont use this tools to scan 
 \033[1;91m*for anyone website without their permission as i wont be        
