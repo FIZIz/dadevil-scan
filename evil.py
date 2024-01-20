@@ -18,7 +18,7 @@ print ga.green+'''
 \033[1;97m********************************************************************* 
 \033[1;93m*   created:[+]\033[1;92mPENTASEC JUNAI                                    
 \033[1;92m*   github:[+]\033[1;95mNot responsible for your actions
-\033[1;92m*   Instagram:[+]\033[1;95mhttps://Instagram.com/dadevil
+\033[1;92m*   Instagram:[+]\033[1;95mhttps://Instagram.com/PENTASEC
 \033[1;92m*   telegram:[+]\033[1;95m@xjunai @PENTASEC
 *********************************************************************                                                 
             
