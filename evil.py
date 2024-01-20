@@ -16,10 +16,10 @@ print ga.green+'''
 \033[1;92m╚███╔███╔╝███████╗██████╔╝███████║╚██████╗██║  ██║██║ ╚████║
 \033[1;91m╚══╝╚══╝ ╚══════╝╚═════╝ ╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═══╝
 \033[1;97m********************************************************************* 
-\033[1;93m*   created:[+]\033[1;92mDADEVIL JUNAI                                    
-\033[1;92m*   github:[+]\033[1;95mhttps://github.com/rrqr
+\033[1;93m*   created:[+]\033[1;92mPENTASEC JUNAI                                    
+\033[1;92m*   github:[+]\033[1;95mNot responsible for your actions
 \033[1;92m*   Instagram:[+]\033[1;95mhttps://Instagram.com/dadevil
-\033[1;92m*   telegram:[+]\033[1;95m@xjunai + @imRixus
+\033[1;92m*   telegram:[+]\033[1;95m@xjunai @PENTASEC
 *********************************************************************                                                 
             
            🇹🇭🇮🇸 🇹🇴🇴🇱 🇨🇷🇪🇦🇹🇪🇩 🇧🇾 DADEVIL - JUNAI   
@@ -45,7 +45,7 @@ def urls_or_list():
 		 else:
 			print ga.red +"\n [Warning] "+ ga.end + ga.bold+"%s"%url +ga.end + ga.red +" is not a valid URL"+ga.end			
 			print ga.red +" [Warning] You should write a Full URL .e.g http://site.com/page.php?id=value \n"+ ga.end
-			os.system('xdg-open https://Instagram.com/dadevil/')
+			os.system('xdg-open https://Instagram.com/pentasec/')
 			exit()
 	if url_or_list =="2":
 		 urls_list = raw_input( ga.green+" [!] Enter the list file name .e.g [list.txt]: "+ga.end)
