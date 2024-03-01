@@ -16,7 +16,7 @@ pkg install python2
 
 pkg install git
 
-git clone https://github.com/rrqr/dadevil-scan.git
+git clone https://github.com/FIZIz/dadevil-scan.git
 
 ls
 
