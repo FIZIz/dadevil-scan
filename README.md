@@ -1,4 +1,4 @@
-DADEVIL-SCAN
+Dark-FIZI
 يقوم هذا البرنامج النصي بفحص نقاط الضعف المختلفة مثل حقن SQL وحقن xss والثغرات الأمنية الأخرى. هذا البرنامج النصي سهل الاستخدام للغاية.
 
 
@@ -16,7 +16,7 @@ pkg install python2
 
 pkg install git
 
-git clone https://github.com/rrqr/dadevil-scan.git
+git clone https://github.com/FIZIz/Dark-Fizi.git
 
 ls
 
